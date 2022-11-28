@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+}
+
+.navbar {
+    background: #404040;
+    padding: 20px 50px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #4370e1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: #cbc9c9;
+    color: #4370e1;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.input {
+    background: #a2b6e7;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
